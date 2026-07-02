@@ -10,6 +10,7 @@
    padding: 15px 40px;
    display: flex;
    justify-content: space-between;
+   align-items: center;
 }
 .navbar .cart-icon{
   font-size: 30px;
@@ -86,6 +87,7 @@
    letter-spacing: 1px;
    position: relative;
    padding: 0 0 8px 0;
+   cursor: pointer;
 }
 .categories button::before{
   content: "";
@@ -98,4 +100,70 @@
 }
 .categories button:hover::before{
   width: 100%;
+}
+
+@media only screen and (max-width:992px){
+   .navbar .search-bar input{
+    width: 200px;
+   }
+}
+
+@media only screen and (max-width:768px){
+  .navbar .nav-icon{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:576px){
+  .navbar{
+    padding: 15px 20px;
+  }
+  .navbar .nav-logo .cart-icon{
+    font-size: 25px;
+  }
+  .navbar .nav-logo h1{
+    font-size: 22px;
+  }
+  .navbar .search-bar{
+    height:30px;
+  }
+   .navbar .search-bar input{
+     width: 120px;
+   }
+   .navbar .search-bar .arrow-div{
+     width: 30px;
+   }
+   .navbar .search-bar .arrow-div .arrow-icon{
+    font-size: 15px;
+   }
+   .categories{
+    padding: 25px 0 15px 0;
+   }
+   .categories .links div{
+     width: 30%;   
+     display: flex;
+     justify-content: center;
+   }
+   .categories .links{
+     flex-wrap: wrap;
+     gap: 10px;
+     row-gap: 10px;
+   }
+}
+
+
+@media only screen and (max-width:425px){
+   .navbar{
+     flex-direction: column;
+     padding: 20px 20px;
+     row-gap: 20px;
+   }
+   .navbar .search-bar,
+   .navbar .search-bar input{
+     width: 100%;
+   }
+   
+   .navbar .search-bar .arrow-div{
+    width: 40px;
+   }
 }
