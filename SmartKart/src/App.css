@@ -109,9 +109,11 @@
   background-color: rgb(239, 238, 238);
   padding: 20px 40px;
   display: flex;
+  gap: 35px;
 }
 .section .left-side{
   background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 12px 13px;
   border-radius: 5px;
   width: 18%;
@@ -166,6 +168,55 @@
 .section .price-range .low-to-high{
   display: flex;
   justify-content: space-between;
+}
+
+.center{
+  width: 55%
+}
+.center .container-fluid{
+  
+}
+.center .cart{
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.center .cart .img{
+  background-color: rgb(237, 235, 235);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  border-radius: 8px;
+}
+.center .cart .img img{
+  width: 120px;
+}
+.center .cart .content .name{
+  font-weight: 700;
+  margin: 5px 0 0 0 ;
+}
+.center .cart .content .star{
+  font-size: 20px;
+  
+}
+.center .cart .content .rating{
+  display: flex;
+  gap: 4px;
+  font-size: 15px;
+}
+.center .cart .content .price{
+  font-weight: 700;
+  margin: 0 0 4px 0;
+}
+.center .cart .content .add-to-cart{
+  background-color: #1F6971;
+  border: none;
+  color: white;
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
 }
 /* Section --------------------- End */
 
