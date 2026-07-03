@@ -116,7 +116,7 @@
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   padding: 12px 13px;
   border-radius: 5px;
-  width: 18%;
+  width: 20%;
 }
 .section .left-side h6{
    font-weight: 700;
@@ -173,9 +173,7 @@
 .center{
   width: 55%
 }
-.center .container-fluid{
-  
-}
+
 .center .cart{
   background-color: white;
   border-radius: 5px;
@@ -210,13 +208,74 @@
   font-weight: 700;
   margin: 0 0 4px 0;
 }
-.Button{
+.Button,
+.right-side .upload-image label{
   background-color: #1F6971;
   border: none;
   color: white;
   width: 100%;
-  height: 30px;
+  height: 35px;
   border-radius: 5px;
+}
+
+.right-side{
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 15px 13px;
+  border-radius: 5px;
+  width: 20%;
+}
+.right-side .upload-image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-side .upload-image label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-side p{
+   text-align: center;
+   font-size: 23px;
+   font-weight: 600;
+}
+.right-side .demo-img{
+  margin: 10px 0;
+  padding: 8px 0;
+  border: 1.6px;
+  border-style: dashed;
+  border-color: rgb(216, 216, 216);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  height: 150px;
+  border-radius: 8px;
+}
+.right-side .demo-img img{
+  position: absolute;
+  top: -15%;
+  transform: scale(0.8);
+}
+.right-side .suggest p{
+  font-size: 14px;
+  padding: 6px 0;
+}
+.suggest-img{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+.suggest-img div{
+  background-color: rgb(237, 235, 235);
+  border-radius: 5px;
+  width: 31%;
+}
+.suggest-img img{
+  width: 100%;
 }
 /* Section --------------------- End */
 

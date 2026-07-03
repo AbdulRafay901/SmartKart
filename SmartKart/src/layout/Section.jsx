@@ -5,7 +5,7 @@ import RightSide from '../components/RightSide'
 
 const Section = () => {
   return (
-    <div className='section '>
+    <div className='section'>
           <LeftSide />
           <Center />
           <RightSide />
