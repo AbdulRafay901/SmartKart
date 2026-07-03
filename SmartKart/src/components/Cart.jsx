@@ -2,6 +2,7 @@ import React from 'react'
 import hero  from '../assets/download-removebg-preview.png'
 import Star from './Star'
 import SimpleStar from './SimpleStar'
+import Button from './Button'
 
 const Cart = () => {
   return (
@@ -20,7 +21,7 @@ const Cart = () => {
                          <Star/>  
                       </div>
                       <p className='price'>$59.00</p>
-                      <button className='add-to-cart'>Add to Cart</button>
+                      <Button text='Add to Cart'/>
                 </div>
           </div>
     </div>
