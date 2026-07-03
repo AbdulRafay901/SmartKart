@@ -3,6 +3,7 @@ import CheckCategories from './CheckCategories'
 import HorizoneLine from './HorizoneLine'
 import Size from './Size'
 import Colors from './Colors'
+import PriceRange from './PriceRange'
 
 const LeftSide = () => {
   return (
@@ -12,6 +13,9 @@ const LeftSide = () => {
         <Size />
         <HorizoneLine />
         <Colors />
+        <HorizoneLine />
+        <PriceRange />
+
     </div>
   )
 }

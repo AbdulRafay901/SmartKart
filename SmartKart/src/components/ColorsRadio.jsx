@@ -1,8 +1,12 @@
 import React from 'react'
 
-const ColorsRadio = () => {
+const ColorsRadio = ({color}) => {
   return (
-    <div>ColorsRadio</div>
+    <div>
+         <label htmlFor="color" style={{backgroundColor:`${color}`}}>
+            <input type="radio" id='color' hidden></input>
+         </label>
+    </div>
   )
 }
 
