@@ -7,7 +7,7 @@
 }
 
 .navbar{
-   padding: 15px 40px;
+   padding: 15px 40px !important;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -101,6 +101,55 @@
 .categories button:hover::before{
   width: 100%;
 }
+
+
+/* Section --------------------- Start */
+
+.section{
+  background-color: rgb(239, 238, 238);
+  padding: 20px 40px;
+  display: flex;
+}
+.section .left-side{
+  background-color: white;
+  padding: 12px 13px;
+  border-radius: 5px;
+  width: 20%;
+}
+.section .left-side h6{
+   font-weight: 700;
+   font-size: 18px;
+}
+.section .left-side .check-categories{
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+}
+.section .left-side .check-categories div label{
+   display: flex;
+   gap: 7px;
+}
+.section .left-side hr{
+  margin: 18px 0 13px 0;
+  
+}
+.section .Size .radios{
+  display: flex;
+  gap: 10px;
+}
+.section .Size label{
+    border: 1px;
+    border-style: solid;
+    background-color: transparent;
+    width: 35px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* Section --------------------- End */
 
 @media only screen and (max-width:992px){
    .navbar .search-bar input{

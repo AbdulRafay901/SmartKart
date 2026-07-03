@@ -3,8 +3,10 @@ import LeftSide from '../components/LeftSide'
 
 const Section = () => {
   return (
-    <div className='section'>
+    <div className='section '>
+   
           <LeftSide />
+      
     </div>
   )
 }
