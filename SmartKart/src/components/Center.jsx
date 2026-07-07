@@ -16,7 +16,7 @@ const Center = () => {
               <div className="row gy-3 gx-3">
                     
                   {DisplayData.slice(0,6).map((elem,idx) => (
-                     <Cart  key={idx} name={elem.title} price={elem.price} img={elem.image} rating={elem.rating.rate}/> 
+                     <Cart  key={idx} name={elem.title.split(" ").slice(0,4).join(" ")} price={elem.price} img={elem.image} rating={elem.rating.rate}/> 
                   ))}
                     
               </div>
