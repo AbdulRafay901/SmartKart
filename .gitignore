@@ -1,4 +1,4 @@
 ./node_modules
-./bjects -vH
-./package-lock.json
-./package.json
+./bjects -vH/
+./package-lock.json/
+/package.json/
